@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/c"
+    tools:context="com.example.goaltechnologies.educationapp.EmployeeReg">
+    <TextView
+        android:text="Employee Registration"
+        android:layout_width="wrap_content"
+        android:id="@+id/textView"
+        android:layout_height="30dp"
+        android:textSize="18sp"
+        android:fontFamily="serif"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="normal|bold"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:text="Register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button5"
+        android:layout_above="@+id/button6"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:text="Already Registed? Go Back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button6"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/editText7"
+        android:hint="Qualification"
+        android:textColor="@color/colorred"
+        android:textColorHint="@color/colorred"
+        android:textAlignment="center"
+        android:textStyle="normal|bold"
+        android:fontFamily="serif"
+        android:layout_above="@+id/editText3"
+        android:layout_alignStart="@+id/editText4" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:id="@+id/editText4"
+        android:hint="abc@gmail.com"
+        android:textColor="@color/colorred"
+        android:textColorHint="@color/colorred"
+        android:textAlignment="center"
+        android:textStyle="normal|bold"
+        android:fontFamily="serif"
+        android:layout_above="@+id/editText7"
+        android:layout_alignStart="@+id/editText2"
+        android:layout_marginBottom="15dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:textColor="@color/colorred"
+        android:textColorHint="@color/colorred"
+        android:id="@+id/editText2"
+        android:hint="Password"
+        android:fontFamily="serif"
+        android:textAlignment="center"
+        android:textStyle="normal|bold"
+        android:layout_marginBottom="34dp"
+        android:layout_above="@+id/editText4"
+        android:layout_alignStart="@+id/editText" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/editText"
+        android:textStyle="normal|bold"
+        android:textColor="@color/colorred"
+        android:textColorHint="@color/colorred"
+        android:hint="Name"
+        android:textAlignment="center"
+        android:fontFamily="serif"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textStyle="normal|bold"
+        android:inputType="textPersonName"
+        android:textColor="@color/colorred"
+        android:textColorHint="@color/colorred"
+        android:hint="Mobile Number"
+        android:textAlignment="center"
+        android:fontFamily="serif"
+        android:layout_marginBottom="72dp"
+        android:layout_above="@+id/button5"
+        android:layout_alignStart="@+id/editText7" />
+
+    <EditText
+        android:id="@+id/editText10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textStyle="normal|bold"
+        android:inputType="textPersonName"
+        android:textColor="@color/colorred"
+        android:textColorHint="@color/colorred"
+        android:hint="Experience"
+        android:textAlignment="center"
+        android:fontFamily="serif"
+        android:layout_above="@+id/button5"
+        android:layout_alignEnd="@+id/button6" />
+</RelativeLayout>
